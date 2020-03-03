@@ -44,6 +44,10 @@ public class People implements Iterable<Person>{
         personList.clear();
     }
 
+    public List<Person> getPersonList() {
+        return personList;
+    }
+
     public int count(){
         return personList.size();
     }

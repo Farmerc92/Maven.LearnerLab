@@ -7,11 +7,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TestStudents {
+
+
     @Test
     public void test(){
-        Students cohort6 = Students.getINSTANCE();
+        People people = Students.getINSTANCE();
 
-        Person[] actualCohort6 = cohort6.toArray();
+        Person[] actualCohort6 = people.toArray();
 
         List<String> expectedNames = Arrays.asList("David","David","Aarti","Zeth","April","Han","James","Zanetta","Sandy","Raheel","Leila","Giles","Khalil","Sandeep","Adam","Moe","Matt",
                 "Emily","Jeremy","Maurice","Corey","Kevin","Von","Greg","Jimmy","Ujjwal","Destiny","Chris","Chip");

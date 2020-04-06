@@ -50,7 +50,7 @@ public abstract class People<E extends Person>{
 
     abstract public E[] toArray();
 
-    public Iterator iterator(){
+    public Iterator<E> iterator(){
         return this.personList.iterator();
     }
 }
